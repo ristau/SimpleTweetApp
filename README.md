@@ -21,7 +21,7 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] While composing a tweet, user can see a character counter with characters remaining for tweet out of 140
+* [X] While composing a tweet, user can see a character counter with characters remaining for tweet out of 140
 * [ ] User can **pull down to refresh tweets** in either timeline.
 * [ ] Improve the user interface and theme the app to feel twitter branded with colors and styles
 * [ ] User can **search for tweets matching a particular query** and see results.
