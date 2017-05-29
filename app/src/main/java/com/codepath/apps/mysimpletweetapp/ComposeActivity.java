@@ -66,23 +66,31 @@ public class ComposeActivity extends AppCompatActivity {
 
     }
 
-        //    Intent data = new Intent();
-//        data.putExtra("tweetText", etCompose.getText().toString());
-//        setResult(RESULT_OK, data);
-//        finish();
 
-
-
-//        client.sendTweet(text, new JsonHttpResponseHandler() {
+//    private void setupFloatingLabelError() {
+//        final TextInputLayout floatingUsernameLabel = (TextInputLayout) findViewById(R.id.etCompose_text_input_layout);
+//        floatingUsernameLabel.getEditText().addTextChangedListener(new TextWatcher() {
+//            // ...
 //            @Override
-//            public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
-//                super.onSuccess(statusCode, headers, response);
-//                tweets.add(0, Tweet.fromJSON(response));
-//                aTweets.notifyDataSetChanged();
-//                Log.d("DEBUG", "SENT TWEET");
+//            public void onTextChanged(CharSequence text, int start, int count, int after) {
+//                if (text.length() > 0 && text.length() <= 10) {
+//                    floatingUsernameLabel.setError(getString(R.string.maxChar));
+//                    floatingUsernameLabel.setErrorEnabled(true);
+//                } else {
+//                    floatingUsernameLabel.setErrorEnabled(false);
+//                }
+//            }
+//            @Override
+//            public void beforeTextChanged(CharSequence s, int start, int count,
+//                                          int after) {
+//                // TODO Auto-generated method stub
+//            }
+//
+//            @Override
+//            public void afterTextChanged(Editable s) {
+//
 //            }
 //        });
-
-
+//    }
 
 }
